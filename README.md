@@ -1,5 +1,7 @@
 # spring-image
 
+![Docker Hub](https://badgen.net/docker/size/ferror/spring-image/latest)
+
 Makefile
 ```makefile
 run:
@@ -12,7 +14,7 @@ rerun:
 
 docker-compose.yml
     
-```
+```docker-compose
 services:
     traefik:
         image: traefik:2.3
