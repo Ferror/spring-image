@@ -2,15 +2,16 @@
 
 Makefile
 ```makefile
-
-
-```
 run:
     ./gradlew build
     exec /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
 rerun:
     ./gradlew build
     supervisorctl restart spring
+```
+
+docker-compose.yml
+    
 ```
 services:
     traefik:
