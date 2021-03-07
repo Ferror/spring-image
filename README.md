@@ -14,7 +14,7 @@ rerun:
 
 docker-compose.yml
     
-```docker-compose
+```dockerfile
 services:
     traefik:
         image: traefik:2.3
